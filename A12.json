@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "A-12",
+      "maintainer": "A-12",
+      "websiteURL": "",
+      "email" : "",
+      "platforms":
+      [
+        {
+          "name": "A-12 Controllers",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://github.com/courlander/A-12Midi.zip",
+          "checksum": "SHA-256:3808e14411142aa0655c56750941f844fb9239cce2aa387d38bb880e2f4ae7bd",
+          "archiveFileName": "A-12 Midi.zip",
+          "size": "1697366",
+          "boards": [
+            {
+              "name": "A-12 Ampface"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
